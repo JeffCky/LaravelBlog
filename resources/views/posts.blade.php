@@ -7,7 +7,7 @@
             </h1>
 
             <p>
-                <h4>Category: <a href="#">{{$post->category->name}}</a></h4>
+                <h4>Category: <a href="/categories/{{$post->category->slug}}">{{$post->category->name}}</a></h4>
             </p>
 
            <div>{{$post->excerpt;}}</div>
